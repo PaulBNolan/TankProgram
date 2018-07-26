@@ -1,0 +1,110 @@
+background:
+   file: ./resources/images/Background.jpg # Sample comment
+Paddle:
+   position: {x: 380, y: 570}
+Bolt:
+   position: {x: 415, y: 450}
+   velocity: {x: 0, y: 3}	
+
+bricks:
+   - Type: Brick
+     Row: 0
+     Column: 0
+     position: {x: 0, y: 140}
+   - Type: Brick
+     Row: 0
+     Column: 1
+     position: {x: 140, y: 140}
+   - Type: Brick
+     Row: 0
+     Column: 2
+     position: {x: 280, y: 140}
+   - Type: Brick
+     Row: 0
+     Column: 3
+     position: {x: 420, y: 140}
+   - Type: Brick
+     Row: 0
+     Column: 4
+     position: {x: 560, y: 140}
+   - Type: Brick
+     Row: 0
+     Column: 5
+     position: {x: 700, y: 140}
+   - Type: Brick
+     Row: 1
+     Column: 0
+     position: {x: 0, y: 320}
+   - Type: Brick
+     Row: 1
+     Column: 1
+     position: {x: 140, y: 320}
+   - Type: Brick
+     Row: 1
+     Column: 2
+     position: {x: 280, y: 320}
+   - Type: Brick
+     Row: 1
+     Column: 3
+     position: {x: 420, y: 320}
+   - Type: Brick
+     Row: 1
+     Column: 4
+     position: {x: 560, y: 320}
+   - Type: Brick
+     Row: 1
+     Column: 5
+     position: {x: 700, y: 320}
+
+Invaders:
+   - Type: Invader
+     Row: 0
+     Column: 0
+     position: {x: 40, y: 60}
+   - Type: Invader
+     Row: 0
+     Column: 1
+     position: {x: 180, y: 60}
+   - Type: Invader
+     Row: 0
+     Column: 2
+     position: {x: 320, y: 60}
+   - Type: Invader
+     Row: 0
+     Column: 3
+     position: {x: 460, y: 60}
+   - Type: Invader
+     Row: 0
+     Column: 4
+     position: {x: 600, y: 60}
+   - Type: Invader
+     Row: 0
+     Column: 5
+     position: {x: 740, y: 60}
+   - Type: Invader
+     Row: 1
+     Column: 0
+     position: {x: 40, y: 240}
+   - Type: Invader
+     Row: 1
+     Column: 1
+     position: {x: 180, y: 240}
+   - Type: Invader
+     Row: 1
+     Column: 2
+     position: {x: 320, y: 240}
+   - Type: Invader
+     Row: 1
+     Column: 3
+     position: {x: 460, y: 240}
+   - Type: Invader
+     Row: 1
+     Column: 4
+     position: {x: 600, y: 240}
+   - Type: Brick
+     Row: 1
+     Column: 5
+     position: {x: 740, y: 240}
+
+Time:
+    TimeLimit: 90
